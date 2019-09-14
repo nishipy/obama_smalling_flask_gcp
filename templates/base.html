@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Obama Smalling Predictor</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<h1>Obama Smalling Predictor</h1>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  {% block content %}{% endblock %}
+</section>
+
+<input type="button" value="Top Page" onClick="location.href='./predict'">

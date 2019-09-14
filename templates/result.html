@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}I have predicted:{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <p>{{resultmsg}}</p>
+  <img src="{{filepath}}">
+{% endblock %}
