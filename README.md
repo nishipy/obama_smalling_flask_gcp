@@ -5,7 +5,7 @@
   * Upload your model(.h5) to the backet
 
 * App Engine
-  * Set your backet name and model name to `main.py`
+  * Set your backet name and model name to `main.py` file
   * Execute command as follows:
     ```shell
     $ cd obama-smalling-flask-gcp
